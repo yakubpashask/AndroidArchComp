@@ -48,7 +48,8 @@ public class ExpenseRVAdapter extends RecyclerView.Adapter<ExpenseRVAdapter.View
     @Override
     public int getItemCount() {
 //        if(entities!=null && entities.getValue()!=null)
-            return entities.size();
+
+                return entities.size();
 //        return 0;
     }
 
